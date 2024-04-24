@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jersey+10&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest"> 
+        <title>B.B Dev Tracker</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="header">
+        <img id="logo" src = "../logo.png">
+        <h2>Dev Tracker</h2>
+        </div>
+        
+        <div id="main">
+            <input id='main-txt' type="text" placeholder="Enter updates here: " >
+            <select class="to-from" name="From: " id='from'>
+                <option value="???" selected>From:</option>
+                <option value='Eric'>Eric</option>
+                <option value='Kahael'>Kahael</option>
+                <option value='Matt'>Matt</option>
+                <option value='Sebastian'>Sebastian</option>
+            </select>
+            <select class="to-from" name="To: " id="to">
+                <option value="Everyone" selected>To: </option>
+                <option value='Everyone'>Everyone</option>
+                <option value='Eric'>Eric</option>
+                <option value='Kahael'>Kahael</option>
+                <option value='Matt'>Matt</option>
+                <option value='Sebastian'>Sebastian</option>
+            </select>
+            <button id="publish-btn">Publish</button>
+        <h2> - Tickets - </h2>
+        </div>
+        <div id="tickets">
+            <p class = 'entry'></p>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

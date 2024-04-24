@@ -1,0 +1,107 @@
+html, body {
+    min-width: 400px;
+    font-family: "Exo 2", sans-serif;
+    background-color: #EF9D1D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.exo-2 {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700px;
+  font-style: normal;
+}
+
+#logo {
+    width: 400px;
+    padding-top: 15px;
+}
+
+h2{
+    font-family: inherit;
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+}
+
+#header{
+    text-align: center;
+}
+
+#main{
+    
+    color: #8F8F8F;
+    width: 400px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+#main-txt{
+    font-family: inherit;
+    margin-top: 20px;
+    width: 400px;
+    background-color: #FFD18F;
+    padding: 10px 10px 80px 10px;    
+    border-radius: 6px;
+    border: none;
+
+}
+.to-from{
+    font-family: inherit;
+    text-align: center;
+    width: 195px;
+    background-color: #FFD18F;
+    padding: 10px 10px 10px 10px;    
+    border-radius: 6px;
+    border: none;
+}
+
+h4{
+    display:inline;
+}
+button{
+
+    font-family: "Exo 2", sans-serif;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-color: #1d5191;
+}
+
+img{
+    padding: 10px 10px 10px 10px;
+    vertical-align:middle;
+    width: 25px;
+}
+
+img:hover{
+    width:34px;
+    padding: 10px 10px 10px 10px;
+}
+#publish-btn{
+    margin: 0px;
+    width: 400px;
+    padding: 15px 10px 15px 10px;    
+    border: none; 
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background-color: #0d2440;
+}
+
+p{
+    border-radius: 4px;
+    background-color: white;
+    width: 400px;
+    height: auto;
+    padding: 10px 10px 0px 10px;
+}
